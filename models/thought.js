@@ -7,13 +7,13 @@ const thoughtSchema = new Schema(
         thoughtText: {
             type: String,
             required: true,
-            max_length: 280,
+            maxlength: 280,
         },
         //createdAt portion of model
         createdAt: {
             type: Date,
             required: true,
-            default: Date.now(),
+            default: Date.now,
 
         },
         //username portion of model
